@@ -3,8 +3,8 @@ package br.ufrn.imd.modelo;
 public interface ItemBiblioteca {
 	
 	String getTitulo();
-    String getAutor();
-    int getAnoPublicacao();
+    	String getAutor();
+    	int getAnoPublicacao();
 	
 	String getDetalhes(); 
 	boolean verificarDisponibilidade();
